@@ -128,10 +128,12 @@ body {
 }  */
 
 .bg-headers {
-    background: url('img/top_img.png') no-repeat center center;
+    background: url('img/top_img.png') no-repeat right center;
     background-size: contain; /* Ensures the image covers the entire div */
-    height: 584px;
-    max-width: 1500px;
+    /* height: 584px;
+    max-width: 1500px; */
+    height: auto;
+    width: 100%;
 
    
 }
